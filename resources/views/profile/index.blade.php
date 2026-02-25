@@ -31,7 +31,7 @@
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-8 flex-grow">
+    <main class="container mx-auto px-4 py-8" flex-grow">
         <div class="flex items-center justify-between mb-6">
             <h1 class="text-2xl font-bold">Profile Saya</h1>
             <a href="{{ route('profile.edit') }}" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">

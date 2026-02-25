@@ -32,7 +32,7 @@
     </header>
 
     <!-- Edit Product Form -->
-    <main class="container mx-auto px-4 py-8 flex-grow">
+    <main class="container mx-auto px-4 py-8" flex-grow">
         <div class="max-w-2xl mx-auto">
             <div class="bg-white rounded-lg shadow-lg p-6">
                 <h1 class="text-2xl font-bold text-gray-800 mb-6">

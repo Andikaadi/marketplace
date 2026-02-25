@@ -34,7 +34,6 @@ class ProfileController extends Controller
      */
     public function update(Request $request)
     {
-        /** @var \App\Models\User $user */
         $user = Auth::user();
 
         $request->validate([
@@ -60,7 +59,6 @@ class ProfileController extends Controller
             'password' => ['required', 'confirmed', 'min:8'],
         ]);
 
-        /** @var \App\Models\User $user */
         $user = Auth::user();
 
         if (!Hash::check($request->current_password, $user->password)) {

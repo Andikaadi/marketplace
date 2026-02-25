@@ -115,7 +115,7 @@
     </div>
 
     <!-- Products Grid (Facebook Marketplace Style) -->
-    <main class="container mx-auto px-4 py-8 flex-grow">
+    <main class="container mx-auto px-4 py-8" flex-grow">
         <div class="flex items-center justify-between mb-6">
             <h2 class="text-xl font-semibold text-gray-800">
                 <i class="fas fa-box-open"></i> Semua Produk

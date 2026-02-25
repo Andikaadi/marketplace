@@ -36,7 +36,7 @@
     </header>
 
     <!-- Content -->
-    <main class="container mx-auto px-4 py-8 flex-grow">
+    <main class="container mx-auto px-4 py-8" flex-grow">
         <div class="bg-white rounded-lg shadow">
             <div class="p-6 border-b">
                 <h2 class="text-xl font-bold text-gray-800">

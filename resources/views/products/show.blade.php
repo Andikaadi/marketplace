@@ -37,7 +37,7 @@
     </header>
 
     <!-- Product Detail -->
-    <main class="container mx-auto px-4 py-8 flex-grow">
+    <main class="container mx-auto px-4 py-8 flex-grow" flex-grow">
         <a href="{{ route('home') }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 mb-4">
             <i class="fas fa-arrow-left"></i> Kembali ke daftar produk
         </a>
