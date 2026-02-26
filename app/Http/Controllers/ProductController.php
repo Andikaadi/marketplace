@@ -85,7 +85,7 @@ class ProductController extends Controller
             'location' => 'required|string|max:255',
             'category_id' => 'required|exists:categories,id',
             'condition' => 'required|in:baru,bekas',
-            'image' => 'nullable|image|max:2048',
+            'image' => 'nullable|image|max:10240',
         ]);
 
         $imagePath = null;
